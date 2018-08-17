@@ -9,7 +9,7 @@
 // 7: 111
 // First and third bit differ. Hence answer is 2
 
-int cntBits (int *A, int size)
+int cntBits(int *A, int size)
 {
     int pairs = 0;
     for (int i = 0; i < 31; i++)

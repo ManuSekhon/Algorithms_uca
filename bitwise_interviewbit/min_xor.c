@@ -9,12 +9,12 @@
 #include "bitwise_interviewbit.h"
 
 // compare function for qsort
-int compare (const void *a, const void *b)
+int compare(const void *a, const void *b)
 {
     return *(int *)a - *(int *)b;
 }
 
-int findMinXor (int *A, int size)
+int findMinXor(int *A, int size)
 {
     // sort the array
     qsort(A, size, sizeof(int), compare);

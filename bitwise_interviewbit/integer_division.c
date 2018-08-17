@@ -8,7 +8,7 @@
 
 #include "bitwise_interviewbit.h"
 
-int divide (int A, int B)
+int divide(int A, int B)
 {
     // integer flow if INT_MIN / -1
     if (labs(A) > INT_MAX && B == -1)

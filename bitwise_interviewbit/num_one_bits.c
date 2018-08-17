@@ -5,7 +5,7 @@
 
 #include "bitwise_interviewbit.h"
 
-int numSetBits (unsigned int A)
+int numSetBits(unsigned int A)
 {
     int count = 0;
     int x = A;

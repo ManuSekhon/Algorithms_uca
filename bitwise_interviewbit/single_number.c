@@ -3,7 +3,7 @@
  * Find that single one.
  */
 
-int singleNumber (const int *A, int size)
+int singleNumber(const int *A, int size)
 {
     int num = 0;
     for (int i = 0; i < size; i++)
@@ -11,4 +11,3 @@ int singleNumber (const int *A, int size)
 
     return num;
 }
-
