@@ -12,8 +12,8 @@
 int findMinXor (int *array, int size);
 
 /** 
- * Write a function that takes an unsigned integer
- * and returns the number of 1 bits it has.
+ * Write a function that takes an unsigned integer and returns the number
+ * of 1 bits it has.
  */
 int numSetBits (unsigned int A);
 
@@ -23,9 +23,15 @@ int numSetBits (unsigned int A);
 unsigned int reverse (unsigned int A);
 
 /**
- * Divide two integers without using multiplication, division and mod operator.
- * Return the floor of the result of the division.
+ * Divide two integers without using multiplication, division and mod 
+ * operator. Return the floor of the result of the division.
  */
 int divide (int dividend, int divisor);
+
+/**
+ * Given an array of integers, every element appears twice except for one.
+ * Find that single one.
+ */
+int singleNumber (const int *array, int size);
 
 #endif
