@@ -59,7 +59,15 @@ void test_single_number(void)
     assert(singleNumber(b, 7) == 7);
     assert(singleNumber(c, 167) == 208);
     printf("Passed: singleNumber\n");
+}
 
+void test_cntBits(void)
+{
+    int a[] = {2, 7};
+    int b[] = {1, 3, 5};
+    assert(cntBits(a, 2) == 4);
+    assert(cntBits(b, 3) == 8);
+    printf("Passed: diff_bits_sum_pairwise\n");
 }
 
 int main (void)
@@ -69,4 +77,5 @@ int main (void)
     test_reverse_bits();
     test_integer_divide();
     test_single_number();
+    test_cntBits();
 }
