@@ -34,4 +34,11 @@ int divide (int dividend, int divisor);
  */
 int singleNumber (const int *array, int size);
 
+/**
+ * You are given an array of N positive integers, A1, A2 ,…, AN. Find sum 
+ * of f(Ai, Aj) for all pairs (i, j) such that 1 ≤ i, j ≤ N. Return the 
+ * answer modulo 109+7.
+ */
+int cntBits (int *A, int size);
+
 #endif
