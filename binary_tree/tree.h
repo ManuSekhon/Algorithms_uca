@@ -42,4 +42,16 @@ class BinaryTree
 
         // return list of post order traversal
         std::list<int> post_order(void);
+
+        // return height of tree
+        size_t height(void);
+
+        // return list of left view of tree
+        std::list<int> left_view(void);
+
+        // return list of right view of tree
+        std::list<int> right_view(void);
+
+        // return list of top view of tree
+        std::list<int> top_view(void);
 };

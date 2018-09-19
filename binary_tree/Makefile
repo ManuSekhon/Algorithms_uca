@@ -4,7 +4,7 @@
 CXX := clang++-6.0
 
 # Flags to pass to compiler
-CXXFLAGS := -ggdb3 -std=c++17 -Wall -Werror -Wextra
+CXXFLAGS := -ggdb3 -std=c++17 -Wall -Werror -Wextra -O0
 
 # Name for executable
 EXE = main
